@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>turnOnOff</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    style="
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    "
+  >
+    <main>
+      <div class="turnonoff">
+        <img src="OFFbulb.jpg" class="img" alt="" />
+
+        <div>
+          <button class="btn btnON">ON</button>
+          <button class="btn btnOf">OFF</button>
+        </div>
+      </div>
+
+      <div
+        class="inputbox turnonoff"
+        style="margin-top: 2rem; margin-bottom: 2rem"
+      >
+        <label for="lname">Birseyler yaziniz: </label>
+        <input class="textB" type="text" id="fname" name="fname" value="" />
+
+        <input
+          style="margin-left: 2rem"
+          class="checkB"
+          type="checkbox"
+          id="one"
+        />
+        <label for=""> Buyuk harfle yazmak icin tiklayiniz</label>
+      </div>
+
+      <div class="addDelete turnonoff">
+        <h2 style="font-size: 2rem">Please write what you wanna list</h2>
+        <input
+          style="width: 15rem; height: 2rem"
+          class="inputbtnaddDelete"
+          type="text"
+          id="fname"
+          name="fname"
+          value=""
+        />
+        <button style="background-color: orange" class="newButton btnAdd">
+          ADD
+        </button>
+        <button
+          style="background-color: rgb(221, 73, 73)"
+          class="newButton btnDelete"
+        >
+          DELETE
+        </button>
+
+        <ul class="ul"></ul>
+      </div>
+    </main>
+
+    <script src="js.js"></script>
+  </body>
+</html>
